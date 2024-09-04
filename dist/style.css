@@ -61,7 +61,7 @@ body{
     width: 50px;
     padding: 0;
     border-radius: 50%;
-    background-color: white;
+    background-color: var(--cor-primaria);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,6 +76,9 @@ body{
 }
 #theme-switch svg{
     fill: #272727;
+}
+.darkmode #theme-switch svg{
+    fill: #ffffff;
 }
 #theme-switch svg:last-child{
     display: none;
@@ -178,6 +181,7 @@ body{
 .romiconnect{
     width: 30%;
     justify-content: space-around;
+    
 }
 
 .rodape{
